@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90D5BC425E81338005215E8 /* image+names.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D5BC325E81338005215E8 /* image+names.swift */; };
 		A97A7E6B25E7F0780026849E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E6A25E7F0780026849E /* AppDelegate.swift */; };
 		A97A7E6D25E7F0780026849E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E6C25E7F0780026849E /* SceneDelegate.swift */; };
-		A97A7E6F25E7F0780026849E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E6E25E7F0780026849E /* ViewController.swift */; };
+		A97A7E6F25E7F0780026849E /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E6E25E7F0780026849E /* ListTableViewController.swift */; };
 		A97A7E7225E7F0780026849E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97A7E7025E7F0780026849E /* Main.storyboard */; };
 		A97A7E7425E7F0790026849E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97A7E7325E7F0790026849E /* Assets.xcassets */; };
 		A97A7E7725E7F0790026849E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97A7E7525E7F0790026849E /* LaunchScreen.storyboard */; };
 		A97A7E8225E7F0790026849E /* listyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E8125E7F0790026849E /* listyTests.swift */; };
 		A97A7E8D25E7F0790026849E /* listyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7E8C25E7F0790026849E /* listyUITests.swift */; };
+		A97A7EA625E80B0F0026849E /* ParallaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97A7EA525E80B0F0026849E /* ParallaxCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A90D5BC325E81338005215E8 /* image+names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "image+names.swift"; sourceTree = "<group>"; };
 		A97A7E6725E7F0780026849E /* listy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97A7E6A25E7F0780026849E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A97A7E6C25E7F0780026849E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A97A7E6E25E7F0780026849E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A97A7E6E25E7F0780026849E /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		A97A7E7125E7F0780026849E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A97A7E7325E7F0790026849E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97A7E7625E7F0790026849E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		A97A7E8825E7F0790026849E /* listyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97A7E8C25E7F0790026849E /* listyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listyUITests.swift; sourceTree = "<group>"; };
 		A97A7E8E25E7F0790026849E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97A7EA525E80B0F0026849E /* ParallaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,15 @@
 		A97A7E6925E7F0780026849E /* listy */ = {
 			isa = PBXGroup;
 			children = (
+				A97A7EA125E809490026849E /* View */,
+				A97A7EA025E8093C0026849E /* Controller */,
 				A97A7E6A25E7F0780026849E /* AppDelegate.swift */,
 				A97A7E6C25E7F0780026849E /* SceneDelegate.swift */,
-				A97A7E6E25E7F0780026849E /* ViewController.swift */,
 				A97A7E7025E7F0780026849E /* Main.storyboard */,
 				A97A7E7325E7F0790026849E /* Assets.xcassets */,
 				A97A7E7525E7F0790026849E /* LaunchScreen.storyboard */,
 				A97A7E7825E7F0790026849E /* Info.plist */,
+				A90D5BC325E81338005215E8 /* image+names.swift */,
 			);
 			path = listy;
 			sourceTree = "<group>";
@@ -126,6 +132,22 @@
 				A97A7E8E25E7F0790026849E /* Info.plist */,
 			);
 			path = listyUITests;
+			sourceTree = "<group>";
+		};
+		A97A7EA025E8093C0026849E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A97A7E6E25E7F0780026849E /* ListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A97A7EA125E809490026849E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A97A7EA525E80B0F0026849E /* ParallaxCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97A7E6F25E7F0780026849E /* ViewController.swift in Sources */,
+				A97A7E6F25E7F0780026849E /* ListTableViewController.swift in Sources */,
 				A97A7E6B25E7F0780026849E /* AppDelegate.swift in Sources */,
+				A90D5BC425E81338005215E8 /* image+names.swift in Sources */,
+				A97A7EA625E80B0F0026849E /* ParallaxCell.swift in Sources */,
 				A97A7E6D25E7F0780026849E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
